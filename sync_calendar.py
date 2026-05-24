@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from urllib.parse import quote
 
 # 配置
-MUSICAL = "连璧"          # 修改为《连璧》
+MUSICAL = "连璧"
 API_URL = "https://y.saoju.net/yyj/api/search_musical_show/"
 ICS_FILE = "calendar.ics"
 
@@ -26,6 +26,7 @@ def get_date_range():
 def fetch_shows():
     """从 API 获取演出数据"""
     start_date, end_date = get_date_range()
+    # 中文需要 URL 编码
     encoded_musical = quote(MUSICAL)
     url = f"{API_URL}?musical={encoded_musical}&begin_date={start_date}&end_date={end_date}"
 
@@ -52,11 +53,14 @@ def escape_ics_text(text):
 
 def create_ics_event(show):
     """创建 ICS 事件"""
+    # 解析时间 - API 返回格式 "2026-03-11 19:30"
     time_str = show.get("time", "")
     
     try:
+        # 先尝试空格分隔格式 (北京时间)
         dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M")
-        # 根据时段添加不同的表情标识
+        
+        # 北京时间 14:30 = 午场, 19:30 = 晚场
         if dt.hour == 14:
             summary = "午♾️连璧"
         else:
@@ -66,6 +70,7 @@ def create_ics_event(show):
         summary = "连璧"
         dt = None
 
+    # 时间格式 (ICS 格式)
     if dt:
         start = dt.strftime("%Y%m%dT%H%M%S")
         end_dt = dt.replace(hour=dt.hour + 2, minute=30)
@@ -73,9 +78,11 @@ def create_ics_event(show):
     else:
         start = end = ""
 
+    # 地点
     theatre = escape_ics_text(show.get("theatre", ""))
     city = escape_ics_text(show.get("city", ""))
 
+    # 描述：包含城市、剧院、卡司
     description = f"城市: {city}\\n"
     description += f"剧院: {theatre}\\n\\n"
 
@@ -87,8 +94,10 @@ def create_ics_event(show):
             artist = escape_ics_text(c.get("artist", ""))
             description += f"- {role}: {artist}\\n"
 
+    # 唯一ID
     uid = f"lianbi-{time_str.replace(' ', '-').replace(':', '')}"
 
+    # 生成 ICS 事件
     event = f"""BEGIN:VEVENT
 UID:{uid}@lianbi-calendar
 DTSTART:{start}
@@ -138,6 +147,7 @@ END:VCALENDAR
     else:
         ics_content = generate_ics(shows)
 
+    # 保存
     with open(ICS_FILE, "w", encoding="utf-8") as f:
         f.write(ics_content)
 
