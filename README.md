@@ -9,7 +9,7 @@
 **复制下面的链接，添加到你的日历 App：**
 
 ```
-https://miniclaw666.github.io/lianbi-calendar/calendar.ics
+https://raw.githubusercontent.com/miniclaw666/lianbi-calendar/main/calendar.ics
 ```
 
 ### iPhone / iPad（日历 App）
