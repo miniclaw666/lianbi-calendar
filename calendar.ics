@@ -124,14 +124,14 @@ DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李
 LOCATION:星空间407号·她剧场
 END:VEVENT
 
-# BEGIN:VEVENT
-# UID:lianbi-2026-07-11-1930@lianbi-calendar
-# DTSTART:20260711T193000
-# DTEND:20260711T213000
-# SUMMARY:晚♾️连璧
-# DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 郭美冉\n- 谢宛宁: 许诗翊\n
-# LOCATION:星空间407号·她剧场
-# END:VEVENT
+BEGIN:VEVENT
+UID:lianbi-2026-07-11-1930@lianbi-calendar
+DTSTART:20260711T193000
+DTEND:20260711T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 郭美冉\n- 谢宛宁: 许诗翊\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
 
 BEGIN:VEVENT
 UID:lianbi-2026-07-14-1930@lianbi-calendar
