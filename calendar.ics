@@ -8,15 +8,6 @@ X-WR-TIMEZONE:Asia/Shanghai
 X-WR-CALDESC:音乐剧《连璧》演出日程 (时区: Asia/Shanghai)
 
 BEGIN:VEVENT
-UID:lianbi-2026-07-05-1430@lianbi-calendar
-DTSTART:20260705T143000
-DTEND:20260705T163000
-SUMMARY:午♾️连璧
-DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 杨悦\n- 谢宛宁: 易群\n
-LOCATION:星空间407号·她剧场
-END:VEVENT
-
-BEGIN:VEVENT
 UID:lianbi-2026-07-11-1430@lianbi-calendar
 DTSTART:20260711T143000
 DTEND:20260711T163000
