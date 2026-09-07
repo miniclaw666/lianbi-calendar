@@ -8,15 +8,6 @@ X-WR-TIMEZONE:Asia/Shanghai
 X-WR-CALDESC:音乐剧《连璧》演出日程 (时区: Asia/Shanghai)
 
 BEGIN:VEVENT
-UID:lianbi-2026-08-07-1930@lianbi-calendar
-DTSTART:20260807T193000
-DTEND:20260807T213000
-SUMMARY:晚♾️连璧
-DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 庞雪倩\n- 谢宛宁: 许诗翊\n
-LOCATION:星空间407号·她剧场
-END:VEVENT
-
-BEGIN:VEVENT
 UID:lianbi-2026-08-08-1930@lianbi-calendar
 DTSTART:20260808T193000
 DTEND:20260808T213000
@@ -238,6 +229,177 @@ DTSTART:20261006T193000
 DTEND:20261006T213000
 SUMMARY:晚♾️连璧
 DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 庞雪倩\n- 谢宛宁: 邓茹月\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-10-16-1930@lianbi-calendar
+DTSTART:20261016T193000
+DTEND:20261016T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 郭美冉\n- 谢宛宁: 易群\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-10-17-1930@lianbi-calendar
+DTSTART:20261017T193000
+DTEND:20261017T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 林润欣\n- 谢宛宁: 邓茹月\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-10-18-1430@lianbi-calendar
+DTSTART:20261018T143000
+DTEND:20261018T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 吴杭律\n- 谢宛宁: 赵雨卉\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-10-22-1930@lianbi-calendar
+DTSTART:20261022T193000
+DTEND:20261022T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 张沁丹\n- 谢宛宁: 胥子含\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-10-23-1930@lianbi-calendar
+DTSTART:20261023T193000
+DTEND:20261023T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 杨悦\n- 谢宛宁: 许诗翊\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-01-1430@lianbi-calendar
+DTSTART:20261101T143000
+DTEND:20261101T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 杨悦\n- 谢宛宁: 邓茹月\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-03-1930@lianbi-calendar
+DTSTART:20261103T193000
+DTEND:20261103T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 张沁丹\n- 谢宛宁: 左一平\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-07-1930@lianbi-calendar
+DTSTART:20261107T193000
+DTEND:20261107T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 孙乐仟\n- 谢宛宁: 易群\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-08-1430@lianbi-calendar
+DTSTART:20261108T143000
+DTEND:20261108T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 张沁丹\n- 谢宛宁: 胥子含\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-11-1930@lianbi-calendar
+DTSTART:20261111T193000
+DTEND:20261111T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 庞雪倩\n- 谢宛宁: 左一平\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-13-1930@lianbi-calendar
+DTSTART:20261113T193000
+DTEND:20261113T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 杨悦\n- 谢宛宁: 赵雨卉\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-14-1430@lianbi-calendar
+DTSTART:20261114T143000
+DTEND:20261114T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 郭美冉\n- 谢宛宁: 邓茹月\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-14-1930@lianbi-calendar
+DTSTART:20261114T193000
+DTEND:20261114T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 孙乐仟\n- 谢宛宁: 杜钇樵\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-20-1930@lianbi-calendar
+DTSTART:20261120T193000
+DTEND:20261120T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 吴杭律\n- 谢宛宁: 赵雨卉\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-21-1930@lianbi-calendar
+DTSTART:20261121T193000
+DTEND:20261121T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 庞雪倩\n- 谢宛宁: 许诗翊\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-22-1430@lianbi-calendar
+DTSTART:20261122T143000
+DTEND:20261122T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 郭美冉\n- 谢宛宁: 胥子含\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-28-1430@lianbi-calendar
+DTSTART:20261128T143000
+DTEND:20261128T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 庞雪倩\n- 谢宛宁: 杜钇樵\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-28-1930@lianbi-calendar
+DTSTART:20261128T193000
+DTEND:20261128T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 杨悦\n- 谢宛宁: 易群\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-11-29-1430@lianbi-calendar
+DTSTART:20261129T143000
+DTEND:20261129T163000
+SUMMARY:午♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 吴杭律\n- 谢宛宁: 胥子含\n
 LOCATION:星空间407号·她剧场
 END:VEVENT
 
