@@ -80,24 +80,6 @@ LOCATION:星空间407号·她剧场
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lianbi-2026-09-16-1930@lianbi-calendar
-DTSTART:20260916T193000
-DTEND:20260916T213000
-SUMMARY:晚♾️连璧
-DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 吴杭律\n- 谢宛宁: 党韫葳\n
-LOCATION:星空间407号·她剧场
-END:VEVENT
-
-BEGIN:VEVENT
-UID:lianbi-2026-09-19-1430@lianbi-calendar
-DTSTART:20260919T143000
-DTEND:20260919T163000
-SUMMARY:午♾️连璧
-DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 林润欣\n- 谢宛宁: 邓茹月\n
-LOCATION:星空间407号·她剧场
-END:VEVENT
-
-BEGIN:VEVENT
 UID:lianbi-2026-09-25-1430@lianbi-calendar
 DTSTART:20260925T143000
 DTEND:20260925T163000
@@ -184,6 +166,15 @@ DTSTART:20261006T193000
 DTEND:20261006T213000
 SUMMARY:晚♾️连璧
 DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 庞雪倩\n- 谢宛宁: 邓茹月\n
+LOCATION:星空间407号·她剧场
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lianbi-2026-10-09-1930@lianbi-calendar
+DTSTART:20261009T193000
+DTEND:20261009T213000
+SUMMARY:晚♾️连璧
+DESCRIPTION:城市: 上海\n剧院: 星空间407号·她剧场\n\n卡司:\n- 李玉屏: 吴杭律\n- 谢宛宁: 党韫葳\n
 LOCATION:星空间407号·她剧场
 END:VEVENT
 
